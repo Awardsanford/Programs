@@ -21,6 +21,6 @@ end
 
 puts "Input text into Caeser Cipher: "
 input = gets.chomp
-puts "Input shift interger"
+puts "Input shift interger (1-26)"
 interger = gets.chomp.to_i*(-1)
 puts caeser_cipher(input, interger)
